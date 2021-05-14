@@ -9,7 +9,6 @@ export default function Product({ product }) {
       <Link to={`/product/${product._id}`}>
         <Card.Img src={product.image} />
       </Link>
-      to{" "}
       <Card.Body>
         <Link to={`/product/${product._id}`}>
           <Card.Title as="div">
